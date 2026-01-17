@@ -27,6 +27,10 @@ features.
 
 ---
 
+## Resources
+- [Demo:](https://moseschirusha.github.io/day_17_savings_goal_tracker/)
+- [Medium Article:](https://moseschirusha.medium.com/the-silent-reason-most-people-never-reach-their-savings-goals-a2da125d1001)
+
 ## Tech Stack
 - HTML
 - CSS
