@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Savings Goal Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>💰 Savings Goal Tracker</h1>
+
+  <input type="number" id="goal" placeholder="Set your savings goal (e.g. 1000)">
+  <input type="number" id="deposit" placeholder="Add deposit amount">
+
+  <button onclick="setGoal()">Set Goal</button>
+  <button onclick="addDeposit()">Add Deposit</button>
+
+  <canvas id="progressCanvas" width="250" height="250"></canvas>
+
+  <div class="log" id="log"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
